@@ -5,12 +5,6 @@
 [https://hub.docker.com/_/registry](https://hub.docker.com/_/registry)
 [https://distribution.github.io/distribution/about/configuration/](https://distribution.github.io/distribution/about/configuration/)
 
-# Main Content
-
-## Intro
-
-My name is Christopher and I will be your host todays all about getting started with docker we are going to hit the ground running and see the benefits of docker
-
 ## Docker is free
 
 - Docker cli is free as in freedom and still remains an opensource project
