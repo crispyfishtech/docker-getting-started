@@ -3,6 +3,7 @@
 ## Some Handy Links
 
 [https://hub.docker.com/_/registry](https://hub.docker.com/_/registry)
+
 [https://distribution.github.io/distribution/about/configuration/](https://distribution.github.io/distribution/about/configuration/)
 
 ## Docker is free
