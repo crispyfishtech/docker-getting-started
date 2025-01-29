@@ -185,10 +185,6 @@ curl "http://localhost:8080?name=CrispyFish"
 Hello CrispyFish
 ```
 
-You just dockerized a go app well done or should I see good **GOING** <-- crickets
-
-Oh you want me to go? Oh ok **Get up and leave**
-
 ### Image management
 
 Lets look at our images:
