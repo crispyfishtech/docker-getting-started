@@ -1,0 +1,16 @@
+FROM golang:1.23.5-alpine3.21 AS builder
+
+COPY main.go /go/src/app/main.go
+COPY go.mod /go/src/app/go.mod
+
+WORKDIR /go/src/app
+
+RUN go mod download
+
+RUN go build -o /go/bin/server .
+
+FROM scratch
+
+COPY --from=builder /go/bin/server /go/bin/server
+
+CMD ["/go/bin/server"]
